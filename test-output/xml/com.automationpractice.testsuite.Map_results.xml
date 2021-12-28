@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Map Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.383">
+  <properties />
+  
+  
+            <testcase name="verifyUserIsAbleToDragMapAndTakeScreenshot" time="8.383" classname="com.automationpractice.testsuite.Map" />
+      
+</testsuite>

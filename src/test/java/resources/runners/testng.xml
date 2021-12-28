@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.automationpractice.customlisteners.CustomListeners"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+    <test name="Shopping Cart Test">
+        <parameter name="menu" value="DRESSES"></parameter>
+        <parameter name="product" value="Printed Chiffon Dress"></parameter>
+        <parameter name="expectedMessage" value="Your shopping cart is empty."></parameter>
+        <classes>
+            <class name="com.automationpractice.testsuite.ShoppingCart"></class>
+        </classes>
+    </test>
+
+    <test name="Menu Verification Test">
+        <parameter name="menu" value="WOMEN"></parameter>
+        <parameter name="subMenu" value="Summer Dresses"></parameter>
+        <parameter name="expectedText" value="SUMMER DRESSES"></parameter>
+        <classes>
+            <class name="com.automationpractice.testsuite.TestSubMenuNavigation"></class>
+        </classes>
+    </test>
+
+    <test name="SummerDressPage Test">
+        <parameter name="menu" value="WOMEN"></parameter>
+        <parameter name="subMenu" value="Summer Dresses"></parameter>
+        <parameter name="expectedText" value="SUMMER DRESSES"></parameter>
+        <parameter name="setMaxPrice" value="20.00"></parameter>
+        <classes>
+            <class name="com.automationpractice.testsuite.TestSubMenuNavigation"></class>
+        </classes>
+    </test>
+
+    <test name="Account Creation Test">
+        <parameter name="firstName" value="James"></parameter>
+        <parameter name="lastName" value="Bond"></parameter>
+        <parameter name="password" value="password1"></parameter>
+        <parameter name="address" value="James Bond Street"></parameter>
+        <parameter name="city" value="New York"></parameter>
+        <parameter name="state" value="1"></parameter>
+        <parameter name="postal" value="10966"></parameter>
+        <parameter name="country" value="21"></parameter>
+        <parameter name="phone" value="0199994653"></parameter>
+        <classes>
+            <class name="com.automationpractice.testsuite.AccountCreation"></class>
+        </classes>
+    </test>
+
+    <test name="Map Test">
+        <parameter name="infoLink" value="Our stores"></parameter>
+        <classes>
+            <class name="com.automationpractice.testsuite.Map"></class>
+        </classes>
+    </test>
+
+</suite>

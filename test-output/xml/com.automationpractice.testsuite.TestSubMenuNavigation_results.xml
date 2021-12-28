@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Menu Verification Test"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="5.327">
+  <properties />
+            <testcase name="verifyIfUserIsAbleToFilterPriceChangeAndSeeTheChangeInSearchResults" time="0.000" classname="com.automationpractice.testsuite.TestSubMenuNavigation">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;setMaxPrice&apos; is required by @Test on method verifyIfUserIsAbleToFilterPriceChangeAndSeeTheChangeInSearchResults but has not been marked @Optional or defined
+in C:\Users\rjpat\HomeWorkProjects\wk16-cucumber-testNG-projects\AutomationPractice-Maven-TestNG\src\test\java\resources\runners\testng.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'setMaxPrice' is required by @Test on method verifyIfUserIsAbleToFilterPriceChangeAndSeeTheChangeInSearchResults but has not been marked @Optional or defined
+in C:\Users\rjpat\HomeWorkProjects\wk16-cucumber-testNG-projects\AutomationPractice-Maven-TestNG\src\test\java\resources\runners\testng.xml
+  org.testng.internal.Parameters.createParams(Parameters.java:290)
+  org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+  org.testng.internal.Parameters.createParameters(Parameters.java:620)
+  org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+  org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+  org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="verifyIfUserIsAbleToNavigateToSummerDressesOptionAndIsAbleToViewItemFromTheSummerCollection" time="5.327" classname="com.automationpractice.testsuite.TestSubMenuNavigation" />
+      
+</testsuite>

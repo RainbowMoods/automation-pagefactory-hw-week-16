@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Account Creation Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.662">
+  <properties />
+  
+  
+            <testcase name="verifyIfUserIsAbleToCreateAccountSuccessfully" time="13.662" classname="com.automationpractice.testsuite.AccountCreation" />
+      
+</testsuite>
